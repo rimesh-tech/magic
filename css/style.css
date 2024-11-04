@@ -9874,3 +9874,6 @@ textarea.form-control {
   font-weight: bold;
   cursor: pointer;
 }
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
