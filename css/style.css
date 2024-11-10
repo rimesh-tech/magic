@@ -9897,13 +9897,18 @@ textarea.form-control {
 .modal-content {
   position: relative;
   margin: 1% auto;
-  width: 61vh;
+  width: 50vh;
   max-width: 600px;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   text-align: center;
+}
+@media(max-width:425px){
+  .modal-content{
+    width: 35vh !important;
+  }
 }
 
 .modal-content img {
